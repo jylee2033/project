@@ -21,6 +21,7 @@ public class GamePanel extends JPanel implements Runnable{
     keyHandler key = new keyHandler();
     Thread gameThread;
     Player player = new Player(this, key, 1);
+    Enemy enemy = new Enemy(this, 1);
 
     Crop [] crops;
     Honey [] honeys;

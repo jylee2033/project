@@ -50,6 +50,6 @@ Temporary Items
 hs_err_pid*
 replay_pid*
 
-# xml files
+# xml + iml files
 .idea/workspace.xml
 *.iml
